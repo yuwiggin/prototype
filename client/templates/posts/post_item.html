@@ -1,0 +1,9 @@
+<template name="postItem">
+  <div class="post">
+    <div class="post-content">
+      <h3>{{model}}<span>V{{version}}</span><span> @{{os}}</span></h3>
+     	<h4><a href="{{url}}">{{brand}}</a><span>{{domain}}</span></h4>
+    </div>
+      <a href="{{pathFor 'postPage'}}" class="discuss btn btn-default">Discuss</a>
+  </div>
+</template>
